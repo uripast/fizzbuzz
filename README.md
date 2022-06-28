@@ -17,3 +17,5 @@ For example, a typical output for this would start as follows:
 ### 1.2. Dockerize your work
 Create a minimal Dockerfile that builds a docker image out of the FizzBuzz code you just wrote,
 and run the built image with different MAX_NUMBER inputs, e.g 15,60,100
+
+solution: docker build -t fizzbuzz . && docker run --rm -it fizzbuzz   
